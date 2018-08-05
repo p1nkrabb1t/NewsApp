@@ -1,5 +1,6 @@
 package com.example.android.newsuk;
 
+import com.example.android.newsuk.R;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -30,7 +31,7 @@ public class Utils {
         try {
             url = new URL(stringUrl);
         } catch (MalformedURLException e) {
-            Log.e("Utils", "Cannot create URL ", e);
+            Log.e("utils", "Cannot create URL ", e);
         }
         return url;
     }
