@@ -1,6 +1,5 @@
 package com.example.android.newsuk;
 
-import com.example.android.newsuk.R;
 import android.text.TextUtils;
 import android.util.Log;
 
