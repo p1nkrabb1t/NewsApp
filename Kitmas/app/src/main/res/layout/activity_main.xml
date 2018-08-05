@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        />
+
+
+    <ImageView
+        android:id="@+id/bella"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bella"
+        />
+    <ImageView
+        android:id="@+id/sf1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/sf"
+        />
+
+    <ImageView
+        android:id="@+id/sf2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/sf"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/sf3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="60dp"
+        android:src="@drawable/sf"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:id="@+id/sf4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:padding="10dp"
+        android:layout_toLeftOf="@id/sf3"
+        android:layout_toRightOf="@id/sf6"
+        android:layout_below="@id/sf3"
+        android:src="@drawable/sf"
+
+        />
+    <ImageView
+        android:id="@+id/sf5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="65dp"
+        android:padding="5dp"
+        android:src="@drawable/sf"
+        android:layout_alignParentRight="true"
+        />
+    <ImageView
+        android:id="@+id/sf6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="100dp"
+        android:padding="5dp"
+        android:src="@drawable/sf"
+        android:layout_alignParentBottom="true"
+        />
+    <ImageView
+        android:id="@+id/sf7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:src="@drawable/sf"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="gothic"
+        android:padding="10dp"
+        android:text="We wish you a"
+        android:textColor="#ff5533"
+        android:textStyle="italic"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tx2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tx1"
+        android:text="Merry Kitmas!"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="gothic"
+        android:layout_marginTop="2dp"
+        />
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tx1"
+        android:text="Merry Kitmas!"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:fontFamily="gothic" />
+
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="..and a Happy"
+        android:textSize="24sp"
+        android:textColor="#ff5533"
+        android:textStyle="italic"
+        android:fontFamily="gothic"
+        android:layout_above="@id/tx4"
+
+        />
+
+    <TextView
+        android:id="@+id/tx4b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mew year!"
+        android:textSize="46sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="gothic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tx4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mew year!"
+        android:textSize="45sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="gothic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+
+        />
+
+
+</RelativeLayout>
+

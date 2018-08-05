@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--XML file string resources-->
+    <string name="app_name">Just Java</string>
+    <string name="quantityquestion">Quantity</string>
+    <string name="orderbuttontext">Order</string>
+    <string name="name_prompt">Name</string>
+    <string name="toppings">Toppings</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="total_price">£0</string>
+
+    <!--java file string resources-->
+    <string name="order_message_customer">Name: <xliff:g id="name" example="Jane">%s</xliff:g></string>
+    <string name="order_message_cream">Whipped Cream: <xliff:g id="cream" example="true">%s</xliff:g></string>
+    <string name="order_message_choc">Chocolate: <xliff:g id="choc" example="true">%s</xliff:g></string>
+    <string name="order_message_qty">Quantity: <xliff:g id="quantity" example="10">%s</xliff:g></string>
+    <string name="order_message_price">Total: £<xliff:g id="price" example="5">%s</xliff:g></string>
+    <string name="order_message_thankyou">Thank you for your order!</string>
+    <string name="max_cups_toast">You cannot order more than 50 cups!</string>
+    <string name="min_cups_toast">The minimum order is 1 cup!</string>
+</resources>
